@@ -1,0 +1,46 @@
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoIcon {
+  width: 27px;
+  height: 27px;
+  background: #d9d9d9;
+  border-radius: 8px;
+}
+
+.logoName {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  color: #595959;
+  margin: 0 0 0 8px;
+}
+
+.navBell {
+  margin: 3px 0 0 0;
+  cursor: pointer;
+}
+
+.navProfile {
+  cursor: pointer;
+  background: #8c8c8c;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 0 0 19px;
+}

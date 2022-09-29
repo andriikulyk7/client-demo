@@ -1,0 +1,38 @@
+export const mockedBlocks = [
+  {
+    icon: "/images/message-icon.svg",
+    title: "Private message",
+    price: "25$",
+    buttonText: "Start chat",
+    buttonColor: "#F759AB",
+    priceFrom: "from",
+    timePeriod: "",
+  },
+  {
+    icon: "/images/users-svgrepo-com.svg",
+    title: "1 to 1 session",
+    price: "150$",
+    buttonText: "Start session",
+    buttonColor: "#634BF4",
+    priceFrom: "from",
+    timePeriod: "/session",
+  },
+  {
+    icon: "/images/horn-svgrepo-com.svg",
+    title: "Group session",
+    price: "45$",
+    buttonText: "Browse sessions",
+    buttonColor: "#32AD72",
+    priceFrom: "from",
+    timePeriod: "/session",
+  },
+  {
+    icon: "/images/lightning-icon.svg",
+    title: "Premium content",
+    price: "65$",
+    buttonText: "Browse content",
+    buttonColor: "#FA8C16",
+    priceFrom: "",
+    timePeriod: "/month",
+  },
+];

@@ -1,0 +1,100 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+}
+
+.headerTitle {
+  font-size: 16px;
+  line-height: 24px;
+  color: #434343;
+  margin: 0 0 3px 0;
+}
+
+.mainHeader {
+  margin-top: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 37px 0 0 0;
+  background: #d74695;
+}
+
+.responceTitle {
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.headerName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin: 0 0 42px 0;
+}
+
+.activitiesAlert {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  padding: 24px 0 0 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #595959;
+}
+
+.message {
+  font-size: 20px;
+  line-height: 28px;
+  color: #262626;
+}
+
+.userIcon {
+  width: 64px;
+  height: 64px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  padding: 19px 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.userName {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: underline;
+  color: #262626;
+}
+
+.activitiesWrapper {
+  background: #ffffff;
+  min-height: 100%;
+  padding: 0 20px 20px 20px;
+}
+
+.activitiesBlock {
+  margin: 14px 0 0 0;
+}
+
+.backLink {
+  cursor: pointer;
+}
+
+.menuLink {
+  cursor: pointer;
+}
